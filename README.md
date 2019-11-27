@@ -16,6 +16,7 @@
 
 标准化：特征均值为0，方差为1
 公式：
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png)
 
 https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png
 
