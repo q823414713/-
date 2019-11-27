@@ -18,8 +18,6 @@
 公式：
 ![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png)
 
-https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png
-
 归一化：把每个特征向量（特别是奇异样本数据）的值都缩放到相同数值范围，如[0,1]或[-1,1]。
 
 最常用的归一化形式就是将特征向量调整为L1范数（就是绝对值相加），使特征向量的数值之和为1。
@@ -27,8 +25,7 @@ https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png
 data_normalized = preprocessing.normalize( data , norm="L1" )
 
 公式：
-
-https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058399446105850.png
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058399446105850.png)
 
 这个方法经常用于确保数据点没有因为特征的基本性质而产生较大差异，即确保数据处于同一数量级（同一量纲），提高不同特征数据的可比性。
 
