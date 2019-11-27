@@ -30,7 +30,7 @@ data_normalized = preprocessing.normalize( data , norm="L1" )
 
 关于什么是归一化，更多请参见：https://www.julyedu.com/question/big/kp_id/23/ques_id/1011
 
-# 3、树形结构为什么不需要归一化？
+### 3、树形结构为什么不需要归一化？
 解析：
 
 因为数值缩放不影响分裂点位置，对树模型的结构不造成影响。
@@ -45,7 +45,7 @@ data_normalized = preprocessing.normalize( data , norm="L1" )
 
 标准化：特征均值为0，方差为1
 公式：
-！[](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png)
+![](https://julyedu-img.oss-cn-beijing.aliyuncs.com/quesbase64155058398881840727.png)
 
 
 归一化：把每个特征向量（特别是奇异样本数据）的值都缩放到相同数值范围，如[0,1]或[-1,1]。
